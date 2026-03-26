@@ -1,0 +1,43 @@
+{
+  "name": "brewfyi-embed",
+  "version": "1.0.0",
+  "description": "Embed BrewFYI coffee widgets — varieties, brew methods, roast levels, brew timer. Zero dependencies, Shadow DOM, 4 themes.",
+  "main": "dist/embed.min.js",
+  "module": "dist/embed.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "coffee",
+    "brew",
+    "pour-over",
+    "espresso",
+    "roast",
+    "variety",
+    "SCA",
+    "embed",
+    "widget",
+    "brewfyi",
+    "brewfyi.com",
+    "shadow-dom",
+    "zero-dependencies",
+    "fyipedia",
+    "drinkfyi"
+  ],
+  "homepage": "https://widget.brewfyi.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fyipedia/brewfyi-embed"
+  },
+  "bugs": {
+    "url": "https://github.com/fyipedia/brewfyi-embed/issues"
+  },
+  "license": "MIT",
+  "author": "FYIPedia <dev@fyipedia.com>",
+  "publishConfig": {
+    "access": "public"
+  }
+}
