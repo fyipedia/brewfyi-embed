@@ -1,4 +1,4 @@
-/* brewfyi-embed v1.1.0 | MIT | https://widget.brewfyi.com */
+/* brewfyi-embed v1.1.1 | MIT | https://widget.brewfyi.com */
 
 // src/styles/modern.ts
 function getModernCSS() {
