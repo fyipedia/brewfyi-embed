@@ -44,7 +44,7 @@ That's it. The widget fetches data from the BrewFYI API and renders with full st
 | `data-brewfyi` | recipe, compare, glossary, faq, guide, ingredient, pairing, search, [tools] | required | Widget type |
 | `data-slug` | e.g. "varieties" | — | Entity slug from the BrewFYI database |
 | `data-theme` | light, dark, sepia, auto | light | Visual theme (`auto` follows OS preference) |
-| `data-style` | modern, classic | modern | Widget design style |
+| `data-styleVariant` | modern, classic | modern | Widget design style |
 | `data-size` | default, compact, large | default | Widget size |
 | `data-placeholder` | any string | "Search Coffee Varieties..." | Search box placeholder |
 
