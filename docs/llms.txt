@@ -1,21 +1,53 @@
 # BrewFYI Embed Widget
 
-> Embeddable BrewFYI widgets for any website. Zero dependencies, Shadow DOM isolation, 4 themes (light/dark/sepia/auto).
+> 72 coffee varieties, 21 brew methods. Embeddable widgets for any website. Zero dependencies, Shadow DOM isolation.
 
 ## Quick Start
 
-Add to any HTML page:
-- Script: <script src="https://cdn.jsdelivr.net/npm/brewfyi-embed@1/dist/embed.min.js"></script>
+```html
+<script src="https://cdn.jsdelivr.net/npm/brewfyi-embed@1/dist/embed.min.js"></script>
+<div data-brewfyi="brew-timer" data-slug="example"></div>
+```
+
+## Available Widget Types (9)
+
+- recipe: `data-brewfyi="recipe"`
+- compare: `data-brewfyi="compare"`
+- glossary: `data-brewfyi="glossary"`
+- faq: `data-brewfyi="faq"`
+- guide: `data-brewfyi="guide"`
+- ingredient: `data-brewfyi="ingredient"`
+- pairing: `data-brewfyi="pairing"`
+- search: `data-brewfyi="search"`
+- brew-timer (interactive): `data-brewfyi="brew-timer"`
+
+## Customization
+
+- **Themes**: light, dark, sepia, auto (follows system preference)
+- **Sizes**: compact (280px), default (420px), large (720px)
+- **Styles**: modern, classic
+
+```html
+<div data-brewfyi="brew-timer" data-slug="example"
+     data-theme="auto" data-size="compact" data-style-variant="modern"></div>
+```
+
+## Integration Methods
+
+1. **Script tag** (recommended): `<script src="https://cdn.jsdelivr.net/npm/brewfyi-embed@1/dist/embed.min.js"></script>`
+2. **iframe**: `https://brewfyi.com/iframe/entity/{slug}/`
+3. **oEmbed**: `https://brewfyi.com/oembed?url={page_url}&format=json`
+4. **Badge**: `https://brewfyi.com/badge/site.svg`
 
 ## Links
 
 - Main site: https://brewfyi.com
 - Widget docs: https://widget.brewfyi.com
-- npm: https://www.npmjs.com/package/brewfyi-embed
+- API documentation: https://brewfyi.com/developers/
+- npm package: https://www.npmjs.com/package/brewfyi-embed
 - GitHub: https://github.com/fyipedia/brewfyi-embed
-- API: https://brewfyi.com/developers/
 
-## Beverage FYI Widget Family
+## Beverage FYI Widget Network
 
 - [CocktailFYI Widget](https://widget.cocktailfyi.com)
 - [VinoFYI Widget](https://widget.vinofyi.com)
